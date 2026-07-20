@@ -22,7 +22,7 @@ export default function CTAFinal() {
         loop
         playsInline
         preload="none"
-        poster="/img/hero.png"
+        poster={import.meta.env.BASE_URL + "img/hero.png"}
         aria-hidden="true"
       >
         <source src="https://www.pexels.com/download/video/3141208/" type="video/mp4" />

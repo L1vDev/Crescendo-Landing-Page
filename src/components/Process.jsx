@@ -24,7 +24,7 @@ export default function Process() {
         <div className="proceso-mascot-orbit" aria-hidden="true">
           <div className="proceso-mascot" role="presentation">
             <img
-              src={import.meta.env.BASE_URL + "/img/favicon.png"}
+              src={import.meta.env.BASE_URL + "img/favicon.png"}
               alt=""
               width="44"
               height="44"

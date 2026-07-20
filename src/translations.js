@@ -27,9 +27,9 @@ const translations = {
         { icon: 'fa-ban', text: 'No Long-Term Contracts' },
       ],
       media: [
-        { img: '/img/teamwork-1200.jpg', caption: 'Weekly Strategy Sessions' },
-        { img: '/img/googleads.webp', caption: 'Paid Ads Optimization' },
-        { img: '/img/localseo.webp', caption: 'Local SEO Growth' },
+        { img: 'img/teamwork-1200.jpg', caption: 'Weekly Strategy Sessions' },
+        { img: 'img/googleads.webp', caption: 'Paid Ads Optimization' },
+        { img: 'img/localseo.webp', caption: 'Local SEO Growth' },
       ],
       stats: [
         { icon: 'fa-route', text: 'Strategic roadmap aligned to your monthly revenue target' },
@@ -46,9 +46,9 @@ const translations = {
         link: 'Book the audit now',
       },
       results: [
-        { img: '/img/caso1.png', strong: '+42% Qualified Leads', p: 'Local service business in 60 days' },
-        { img: '/img/caso3.png', strong: '-31% Cost Per Lead', p: 'Google Ads account in 45 days' },
-        { img: '/img/caso5.png', strong: 'Top 3 on Maps', p: 'Multi-location brand in competitive area' },
+        { img: 'img/caso1.png', strong: '+42% Qualified Leads', p: 'Local service business in 60 days' },
+        { img: 'img/caso3.png', strong: '-31% Cost Per Lead', p: 'Google Ads account in 45 days' },
+        { img: 'img/caso5.png', strong: 'Top 3 on Maps', p: 'Multi-location brand in competitive area' },
       ],
     },
     services: {
@@ -287,9 +287,9 @@ const translations = {
         { icon: 'fa-ban', text: 'Sin Contratos a Largo Plazo' },
       ],
       media: [
-        { img: '/img/teamwork-1200.jpg', caption: 'Sesiones de Estrategia Semanal' },
-        { img: '/img/googleads.webp', caption: 'Optimización de Anuncios Pagados' },
-        { img: '/img/localseo.webp', caption: 'Crecimiento SEO Local' },
+        { img: 'img/teamwork-1200.jpg', caption: 'Sesiones de Estrategia Semanal' },
+        { img: 'img/googleads.webp', caption: 'Optimización de Anuncios Pagados' },
+        { img: 'img/localseo.webp', caption: 'Crecimiento SEO Local' },
       ],
       stats: [
         { icon: 'fa-route', text: 'Hoja de ruta estratégica alineada con tu meta de ingresos mensuales' },
@@ -306,9 +306,9 @@ const translations = {
         link: 'Reserva la auditoría ahora',
       },
       results: [
-        { img: '/img/caso1.png', strong: '+42% Leads Calificados', p: 'Negocio local de servicios en 60 días' },
-        { img: '/img/caso3.png', strong: '-31% Costo Por Lead', p: 'Cuenta de Google Ads en 45 días' },
-        { img: '/img/caso5.png', strong: 'Top 3 en Maps', p: 'Marca con múltiples ubicaciones en área competitiva' },
+        { img: 'img/caso1.png', strong: '+42% Leads Calificados', p: 'Negocio local de servicios en 60 días' },
+        { img: 'img/caso3.png', strong: '-31% Costo Por Lead', p: 'Cuenta de Google Ads en 45 días' },
+        { img: 'img/caso5.png', strong: 'Top 3 en Maps', p: 'Marca con múltiples ubicaciones en área competitiva' },
       ],
     },
     services: {

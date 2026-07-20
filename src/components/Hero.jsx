@@ -22,10 +22,10 @@ export default function Hero() {
         loop
         playsInline
         preload="metadata"
-        poster="/img/hero.png"
+        poster={import.meta.env.BASE_URL + "img/hero.png"}
         aria-hidden="true"
       >
-        <source src="/videos/hero.mp4" type="video/mp4" />
+        <source src={import.meta.env.BASE_URL + "videos/hero.mp4"} type="video/mp4" />
       </video>
       <div
         className="absolute inset-0 z-[1] pointer-events-none"

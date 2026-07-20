@@ -47,7 +47,7 @@ export default function Navbar() {
             onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); setMobileOpen(false); }}
           >
             <img
-              src={ import.meta.env.BASE_URL + "/img/logodorado.png"}
+              src={ import.meta.env.BASE_URL + "img/logodorado.png"}
               alt="Crescendo Logo"
               className="logo-img"
               width="180"

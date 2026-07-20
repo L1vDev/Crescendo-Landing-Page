@@ -30,7 +30,7 @@ export default function WhyUs() {
           <div className="por-que-image">
             <picture>
               <img
-                src={import.meta.env.BASE_URL + "/img/teamwork-1200.jpg"}
+                src={import.meta.env.BASE_URL + "img/teamwork-1200.jpg"}
                 alt={t.imgAlt}
                 className="por-que-img"
                 width="600"
