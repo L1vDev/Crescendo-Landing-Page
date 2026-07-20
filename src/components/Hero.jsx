@@ -91,7 +91,7 @@ export default function Hero() {
                 className="m-0 rounded-[16px] overflow-hidden border border-white/20 bg-white/8 shadow-xl"
               >
                 <img
-                  src={item.img}
+                  src={import.meta.env.BASE_URL + item.img}
                   alt={item.caption}
                   className="block w-full h-[130px] object-cover"
                   loading="eager"
@@ -158,7 +158,7 @@ export default function Hero() {
                 className="flex items-center gap-3 bg-gradient-to-br from-white/14 to-white/5 border border-white/20 rounded-xl p-2.5 backdrop-blur-sm"
               >
                 <img
-                  src={result.img}
+                  src={import.meta.env.BASE_URL + result.img}
                   alt={result.strong}
                   className="w-[84px] h-[62px] rounded-xl object-cover border border-white/30"
                   loading="lazy"
